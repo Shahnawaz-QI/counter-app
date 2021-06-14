@@ -4,10 +4,10 @@ const App = () => {
   let [counterValue, setCounterValue] = useState(0);
 
   const changeCounter = (e) => {
-    if (e.target.value === '+')
+    if (e.target.value === '+') {
       setCounterValue(++counterValue);
-
-    else if (e.target.value === '-'){
+    }
+    else if (e.target.value === '-') {
       setCounterValue(--counterValue);
     }
   };
