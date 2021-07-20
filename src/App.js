@@ -14,10 +14,10 @@ const App = () => {
 
   return (
     <div className="App">
-      <input className="Button" type="button" value="+" onClick={changeCounter} />
+      <input className="Button" type="button" value="-" onClick={changeCounter} />
       <label className="Label">Counter</label>
       <label className="Label LabelExtended">{counterValue}</label>
-      <input className="Button" type="button" value="-" onClick={changeCounter} />
+      <input className="Button" type="button" value="+" onClick={changeCounter} />
     </div>
   );
 };
